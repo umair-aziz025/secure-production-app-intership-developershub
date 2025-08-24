@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+logs/
+*.log
+
+# Environment variables
+.env.local
+.env.production
+
+# Session store
+sessions/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vercel deployment files
+.vercel
